@@ -15,6 +15,7 @@
 ├── student_progress.py
 ├── feedback.py
 ├── main.py
+├── .gitignore
 ├── requirements.txt
 └── mentor_scores.csv
 ```
@@ -37,7 +38,7 @@
 Run main.py script:
 
 ```id="run123"
-python main.py
+python3 main.py
 ```
 
 ---
