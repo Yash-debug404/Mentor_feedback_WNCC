@@ -119,7 +119,8 @@ w = 1 / (1 + max(0, |z| − 2))
 
 ### Step 2: Weighted Average
 
-F_raw = weighted mean of r with weight w
+F_raw = weighted mean of r with weight w.
+
 The resulting value (originally in the range [1, 5]) is then scaled to [0, 1].
 
 ### Step 3: Bayesian Adjustment
