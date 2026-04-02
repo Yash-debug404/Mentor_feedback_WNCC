@@ -1,17 +1,8 @@
-# Mentor_feedback_WNCC
+# Mentor Scoring System
 
-## HOW TO RUN:
+## Project Structure
 
-1. First clone the repository:
-   
-   git clone git@github.com:Yash-debug404/Mentor_feedback_WNCC.git
-   cd Mentor_feedback_WNCC
-
-2. Run main.py script:
-   
-   python3 main.py
-
-   PROJECT STRUCTURE:
+```id="tree123"
 .
 ├── data/
 │   ├── mentors.csv
@@ -26,29 +17,24 @@
 ├── main.py
 ├── requirements.txt
 └── mentor_scores.csv
+```
 
-
+---
 
 ## Setup Instructions
 
 1. Clone the repository:
 
    ```
-   git clone <repo-link>
-   cd <repo-folder>
-   ```
-
-2. Install dependencies:
-
-   ```
-   pip install -r requirements.txt
+   git clone git@github.com:Yash-debug404/Mentor_feedback_WNCC.git
+   cd Mentor_feedback_WNCC
    ```
 
 ---
 
 ## How to Run
 
-Run the main script:
+Run main.py script:
 
 ```id="run123"
 python main.py
@@ -58,12 +44,11 @@ python main.py
 
 ## Output
 
-The program generates:
+The program will generate `mentor_scores.csv` in the current directory:
 
-* `mentor_scores.csv` containing:
+* `mentor_scores.csv` contains:
 
   * MentorID
   * Name
   * Final Mentor Score
   * Rank
-
